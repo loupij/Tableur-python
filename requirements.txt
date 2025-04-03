@@ -1,2 +1,4 @@
 pandas
-sqlite3
+Pillow
+sympy
+psutil
