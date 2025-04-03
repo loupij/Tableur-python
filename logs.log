@@ -1,0 +1,119 @@
+2025-01-13 22:50:20,101 - INFO - [INITIALISATION] Lancement en cours.
+2025-01-13 22:50:20,217 - INFO - [INITIALISATION] Spécifications de la machine de l'utilisateur
+    Système d'exploitation : Windows 10 (Version: 10.0.26100) or Windows 11
+    Architecture machine   : AMD64
+    Processeur             : AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD
+    RAM Totale (Go)        : 15.34
+    Nombre de CPU          : 8
+    Fréquence Max CPU (MHz): 4000.0
+    GPU                    : NVIDIA GeForce GTX 1650 (4.0 Go, Charge: 18.0%)
+2025-01-13 22:50:20,217 - INFO - [INITIALISATION] Spécifications du logiciel
+    Version =  2.2.2
+    Modules = ['pandas', 'datetime', 'sympy']
+2025-01-13 22:50:20,289 - INFO - [__init__] Création de la barre de formule.
+2025-01-13 22:50:20,291 - INFO - [__init__] Création de la table et des cellules.
+2025-01-13 22:50:20,291 - INFO - [creer_table] Création de la table.
+2025-01-13 22:50:20,304 - INFO - [creer_table] Table créée avec succès
+2025-01-13 22:50:20,305 - INFO - [__init__] Création de la barre de menu.
+2025-01-13 22:50:20,313 - INFO - [__init__] Création des touches.
+2025-01-13 22:50:36,712 - INFO - Formule détéctée dans la cellule (3, 0) : =SOMME(A1:A2)
+2025-01-13 22:50:36,712 - INFO - [evaluer_formule] Valeur entrée : SOMME(A1:A2)
+2025-01-13 22:50:36,713 - INFO - [evaluer_arguments] A1:A2 = [10.0, 10.0]
+2025-01-13 22:50:36,713 - INFO -     [evaluer_formule] Somme de [10.0, 10.0] calculée : 20.0
+2025-01-13 22:52:09,560 - INFO - [INITIALISATION] Lancement en cours.
+2025-01-13 22:52:09,659 - INFO - [INITIALISATION] Spécifications de la machine de l'utilisateur
+    Système d'exploitation : Windows 10 (Version: 10.0.26100) or Windows 11
+    Architecture machine   : AMD64
+    Processeur             : AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD
+    RAM Totale (Go)        : 15.34
+    Nombre de CPU          : 8
+    Fréquence Max CPU (MHz): 4000.0
+    GPU                    : NVIDIA GeForce GTX 1650 (4.0 Go, Charge: 16.0%)
+2025-01-13 22:52:09,660 - INFO - [INITIALISATION] Spécifications du logiciel
+    Version =  2.2.2
+    Modules = ['pandas', 'datetime', 'sympy']
+2025-01-13 22:52:09,734 - INFO - [__init__] Création de la barre de formule.
+2025-01-13 22:52:09,737 - INFO - [__init__] Création de la table et des cellules.
+2025-01-13 22:52:09,737 - INFO - [creer_table] Création de la table.
+2025-01-13 22:52:09,751 - INFO - [creer_table] Table créée avec succès
+2025-01-13 22:52:09,751 - INFO - [__init__] Création de la barre de menu.
+2025-01-13 22:52:09,762 - INFO - [__init__] Création des touches.
+2025-01-13 22:52:21,427 - INFO - [evaluer_cellule] Formule détéctée dans la cellule (3, 0) : =SOMME(A1:A2)
+2025-01-13 22:52:21,428 - ERROR - [evaluer_cellule] Erreur : Traceback (most recent call last):
+  File "d:\NSI\projet tableur 2\main.py", line 266, in evaluer_cellule
+    res = self.evaluer_formule(valeur[1:])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\NSI\projet tableur 2\main.py", line 284, in evaluer_formule
+    logMessage(f"[evaluer_formule] Valeur entrée : {valeur}", ident=True)
+TypeError: logMessage() got an unexpected keyword argument 'ident'
+
+2025-01-13 22:53:04,770 - ERROR - [enregistrer] Erreur : chemin non valide.
+2025-01-13 22:53:04,770 - ERROR -     
+2025-01-13 22:53:04,770 - CRITICAL - [exit_program] Arrêt.
+2025-01-13 22:53:07,031 - INFO - [INITIALISATION] Lancement en cours.
+2025-01-13 22:53:07,127 - INFO - [INITIALISATION] Spécifications de la machine de l'utilisateur
+    Système d'exploitation : Windows 10 (Version: 10.0.26100) or Windows 11
+    Architecture machine   : AMD64
+    Processeur             : AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD
+    RAM Totale (Go)        : 15.34
+    Nombre de CPU          : 8
+    Fréquence Max CPU (MHz): 4000.0
+    GPU                    : NVIDIA GeForce GTX 1650 (4.0 Go, Charge: 17.0%)
+2025-01-13 22:53:07,128 - INFO - [INITIALISATION] Spécifications du logiciel
+    Version =  2.2.2
+    Modules = ['pandas', 'datetime', 'sympy']
+2025-01-13 22:53:07,210 - INFO - [__init__] Création de la barre de formule.
+2025-01-13 22:53:07,212 - INFO - [__init__] Création de la table et des cellules.
+2025-01-13 22:53:07,212 - INFO - [creer_table] Création de la table.
+2025-01-13 22:53:07,224 - INFO - [creer_table] Table créée avec succès
+2025-01-13 22:53:07,225 - INFO - [__init__] Création de la barre de menu.
+2025-01-13 22:53:07,234 - INFO - [__init__] Création des touches.
+2025-01-13 22:53:23,606 - INFO - [evaluer_cellule] Formule détéctée dans la cellule (3, 0) : =SOMME(A1:A2)
+2025-01-13 22:53:23,606 - INFO -     [evaluer_formule] Valeur entrée : SOMME(A1:A2)
+2025-01-13 22:53:23,607 - INFO -     [evaluer_arguments] A1:A2 = [10.0, 10.0]
+2025-01-13 22:53:23,607 - INFO -     [evaluer_formule] Somme de [10.0, 10.0] calculée : 20.0
+2025-01-13 22:54:11,228 - INFO - [enregistrer] Fichier sauvegardé avec succès : D:/NSI/projet tableur 2/a.csv
+2025-01-13 22:54:26,137 - CRITICAL - [exit_program] Arrêt.
+2025-01-14 19:43:36,022 - INFO - [INITIALISATION] Lancement en cours.
+2025-01-14 19:43:36,110 - INFO - [INITIALISATION] Spécifications de la machine de l'utilisateur
+    Système d'exploitation : Windows 10 (Version: 10.0.26100) or Windows 11
+    Architecture machine   : AMD64
+    Processeur             : AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD
+    RAM Totale (Go)        : 15.34
+    Nombre de CPU          : 8
+    Fréquence Max CPU (MHz): 4000.0
+    GPU                    : NVIDIA GeForce GTX 1650 (4.0 Go, Charge: 1.0%)
+2025-01-14 19:43:36,111 - INFO - [INITIALISATION] Spécifications du logiciel
+    Version =  2.2.2
+    Modules = ['pandas', 'datetime', 'sympy']
+2025-01-14 19:43:36,573 - INFO - [__init__] Création de la barre de formule.
+2025-01-14 19:43:36,576 - INFO - [__init__] Création de la table et des cellules.
+2025-01-14 19:43:36,576 - INFO - [creer_table] Création de la table.
+2025-01-14 19:43:36,590 - INFO - [creer_table] Table créée avec succès
+2025-01-14 19:43:36,590 - INFO - [__init__] Création de la barre de menu.
+2025-01-14 19:43:36,622 - INFO - [__init__] Création des touches.
+2025-01-14 19:44:16,463 - ERROR - [couleur_police] Format couleur invalide : #ff00ff
+2025-01-14 19:44:25,970 - ERROR - [remplissage] Format couleur invalide : #ff80c0
+2025-01-14 19:44:55,710 - CRITICAL - [exit_program] Arrêt.
+2025-01-14 19:46:50,467 - INFO - [INITIALISATION] Lancement en cours.
+2025-01-14 19:46:50,548 - INFO - [INITIALISATION] Spécifications de la machine de l'utilisateur
+    Système d'exploitation : Windows 10 (Version: 10.0.26100) or Windows 11
+    Architecture machine   : AMD64
+    Processeur             : AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD
+    RAM Totale (Go)        : 15.34
+    Nombre de CPU          : 8
+    Fréquence Max CPU (MHz): 4000.0
+    GPU                    : NVIDIA GeForce GTX 1650 (4.0 Go, Charge: 14.0%)
+2025-01-14 19:46:50,549 - INFO - [INITIALISATION] Spécifications du logiciel
+    Version =  2.2.2
+    Modules = ['pandas', 'datetime', 'sympy']
+2025-01-14 19:46:50,646 - INFO - [__init__] Création de la barre de formule.
+2025-01-14 19:46:50,648 - INFO - [__init__] Création de la table et des cellules.
+2025-01-14 19:46:50,648 - INFO - [creer_table] Création de la table.
+2025-01-14 19:46:50,663 - INFO - [creer_table] Table créée avec succès
+2025-01-14 19:46:50,664 - INFO - [__init__] Création de la barre de menu.
+2025-01-14 19:46:50,674 - INFO - [__init__] Création des touches.
+2025-01-14 19:46:57,598 - INFO - [remplissage] la couleur de la cellule (2, 0) a été changée en #ff0080.
+2025-01-14 19:47:46,423 - ERROR - [enregistrer] Erreur : chemin non valide.
+2025-01-14 19:47:46,424 - ERROR -     
+2025-01-14 19:47:46,424 - CRITICAL - [exit_program] Arrêt.
